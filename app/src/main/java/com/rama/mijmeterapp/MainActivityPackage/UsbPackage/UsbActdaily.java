@@ -97,12 +97,14 @@ public class UsbActdaily extends AppCompatActivity {
 
 
 
+
         button = findViewById(R.id.button);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
+                loading.show(getSupportFragmentManager(),"hello");
 
                 startThread();
 

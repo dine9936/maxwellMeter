@@ -155,6 +155,7 @@ public class UsbActHalf extends AppCompatActivity implements DatePickerDialog.On
 
         startThread();
 
+        loading.show(getSupportFragmentManager(),"hello");
 
     }
 
@@ -270,7 +271,7 @@ public class UsbActHalf extends AppCompatActivity implements DatePickerDialog.On
         private boolean mPaused;
         private boolean mFinished;
 
-        int sumkwh,sumkvah,sumkvarhlag,sumkvarhlead;
+        double sumkwh,sumkvah,sumkvarhlag,sumkvarhlead;
 
 
         StringBuilder stringBuilder = new StringBuilder();
@@ -370,25 +371,25 @@ public class UsbActHalf extends AppCompatActivity implements DatePickerDialog.On
                             String kvarhlead = ConvertHalfData.getKvarhLead(stringBuilder.toString());
 
 
-//                            sumkwh = sumkwh+Integer.parseInt(kwh);
-//                            sumkvah = sumkvah+Integer.parseInt(kvah);
-//                            sumkvarhlag = sumkvarhlag+Integer.parseInt(kvarhlag);
-//                            sumkvarhlead = sumkvarhlead+Integer.parseInt(kvarhlead);
+                            sumkwh = sumkwh+Double.parseDouble(kwh);
+                            sumkvah = sumkvah+Double.parseDouble(kvah);
+                            sumkvarhlag = sumkvarhlag+Double.parseDouble(kvarhlag);
+                            sumkvarhlead = sumkvarhlead+Double.parseDouble(kvarhlead);
 //
 //
-//                            if (k ==1){
-//                                String date = ConvertHalfData.getDate(stringBuilder.toString());
-//                                date1.setText("Date : "+date);
-//                            }
-//
-//                            if (k == 48){
-//
-//                                kwhe.setText(""+sumkwh);
-//                                kvahe.setText(""+sumkvah);
-//                                kvarhlage.setText(""+sumkvarhlag);
-//                                kvarhleade.setText(""+sumkvarhlead);
-//
-//                            }
+                            if (k ==1){
+                                String date = ConvertHalfData.getDate(stringBuilder.toString());
+                                date1.setText("Date : "+date);
+                            }
+
+                            if (k == 48){
+
+                                kwhe.setText(""+sumkwh);
+                                kvahe.setText(""+sumkvah);
+                                kvarhlage.setText(""+sumkvarhlag);
+                                kvarhleade.setText(""+sumkvarhlead);
+
+                            }
 
                             idOfAllTextViews(k, linearLayout,time, rv, yv, bv, rc, yc, bc, kwh, kvah, kvarhlag, kvarhlead);
                             ProgressValue.max =48;
