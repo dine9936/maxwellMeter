@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityPackage.UsbPackage.UsbActmonthly">
+<androidx.appcompat.widget.Toolbar
+    app:navigationIcon="@drawable/ic_baseline_chevron_left_24"
+    android:id="@+id/toolbar_monthly"
+    android:background="@color/colorPrimary"
+    app:titleTextColor="@android:color/white"
+    app:subtitleTextColor="@android:color/white"
+    app:title="Usb Monthly"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"/>
+
+    <ScrollView
+       android:layout_below="@+id/toolbar_monthly"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:visibility="gone"
+                android:id="@+id/oh_card_kwh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+                        android:id="@+id/oh_kwh_text_consumed"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_buttons_reading_type"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Kwh Consumed"
+                        android:textSize="16sp" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <include
+                            android:id="@+id/oh_kwh_ll_consumed"
+                            layout="@layout/data_table"/>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="5dp"
+                android:id="@+id/oh_card_kvah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+                        android:id="@+id/oh_kvah_text_consumed"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_buttons_reading_type"
+                        android:gravity="center"
+                        android:padding="10dp"
+
+                        android:text="Kvah Consumed"
+                        android:textSize="16sp" />
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <include
+                        android:id="@+id/oh_kvah_ll_consumed"
+
+                        layout="@layout/data_table"/>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="5dp"
+                android:id="@+id/oh_card_kvah_lag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:cardElevation="0dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/oh_kvah_lag_text_cnsumed"
+                        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_buttons_reading_type"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Kvah lag Consumed"
+                        android:textSize="16sp"/>
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <include
+                        android:id="@+id/oh_kvah_lag_ll_cnsumed"
+
+                        layout="@layout/data_table"/>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/oh_card_kvarh_lead"
+                android:visibility="gone"
+
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/oh_kvarh_lead_text_cnsumed"
+                        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_buttons_reading_type"
+                        android:gravity="center"
+                        android:padding="10dp"
+
+                        android:text="Kvarh lead Consumed"
+                        android:textSize="16sp" />
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <include
+                        android:id="@+id/oh_kvarh_lead_ll_cnsumed"
+
+                        layout="@layout/data_table"/>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:visibility="gone"
+                android:layout_marginTop="5dp"
+                android:id="@+id/oh_card_avg_pf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/oh_avg_pf_text_cnsumed"
+                        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_buttons_reading_type"
+                        android:gravity="center"
+                        android:padding="10dp"
+
+                        android:text="Avg Pf"
+                        android:textSize="16sp" />
+
+                    <include
+                        android:id="@+id/oh_avg_pf_ll_cnsumed"
+
+                        layout="@layout/billing_data_table"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:visibility="gone"
+                android:id="@+id/oh_card_md_kw"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/oh_md_kw_text_cnsumed"
+                        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_buttons_reading_type"
+                        android:gravity="center"
+                        android:padding="10dp"
+
+                        android:text="MD Kw"
+                        android:textSize="16sp" />
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <include
+                        android:id="@+id/oh_md_kw_ll_cnsumed"
+
+                        layout="@layout/data_table"/>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/oh_card_md_kva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+
+                android:layout_marginTop="5dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/oh_md_kva_text_cnsumed"
+                        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_buttons_reading_type"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_margin="5dp"
+                        android:text="MD KvA"
+                        android:textSize="16sp" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <include
+                        android:id="@+id/oh_md_kva_ll_cnsumed"
+
+                        layout="@layout/data_table"/>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/oh_card_power"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+
+                android:layout_marginTop="5dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/oh_power_text_cnsumed"
+                        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_buttons_reading_type"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Power on time in hrs"
+                        android:textSize="16sp" />
+
+                    <include
+                        layout="@layout/billing_data_table"
+                        android:id="@+id/oh_power_ll_cnsumed" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

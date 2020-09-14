@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center|right"
+    android:gravity="center|right"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_back"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+
+            android:gravity="center"
+            android:text="Month"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Total"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+
+            android:gravity="center"
+            android:text="TOD 1"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="TOD 2"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+
+            android:background="@drawable/table_back"
+
+            android:gravity="center"
+            android:text="TOD 3"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="TOD 4"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+
+            android:gravity="center"
+            android:text="TOD 5"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+
+            android:gravity="center"
+            android:text="TOD 6"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+
+            android:gravity="center"
+            android:text="TOD 7"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+
+            android:gravity="center"
+            android:text="TOD 8"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_current"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_back"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="current"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/current_total"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/current_tod1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/current_tod2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/current_tod3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/current_tod4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+
+        <TextView
+            android:id="@+id/current_tod5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/current_tod6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/current_tod7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/current_tod8"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_back"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/one_total"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/one_tod1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/one_tod2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/one_tod3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/one_tod4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/one_tod5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/one_tod6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/one_tod7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/one_tod8"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_back"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="2"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/two_total"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/two_tod1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/two_tod2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/two_tod3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/two_tod4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/two_tod5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/two_tod6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/two_tod7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/two_tod8"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_back"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="3"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/three_total"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/three_tod1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/three_tod2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/three_tod3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/three_tod4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/three_tod5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/three_tod6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/three_tod7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/three_tod8"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_back"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="4"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/four_total"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/four_tod1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/four_tod2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/four_tod3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/four_tod4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/four_tod5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/four_tod6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/four_tod7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/four_tod8"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_back"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="5"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/five_total"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/five_tod1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/five_tod2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/five_tod3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/five_tod4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/five_tod5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/five_tod6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/five_tod7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/five_tod8"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_back"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="6"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/six_total"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/six_tod1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/six_tod2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/six_tod3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/six_tod4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/six_tod5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/six_tod6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/six_tod7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/six_tod8"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_back"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="7"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/seven_total"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/seven_tod1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/seven_tod2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/seven_tod3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/seven_tod4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/seven_tod5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/seven_tod6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/seven_tod7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/seven_tod8"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_back"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="8"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eight_total"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eight_tod1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eight_tod2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eight_tod3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eight_tod4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eight_tod5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eight_tod6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eight_tod7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eight_tod8"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_back"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="9"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/nine_total"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/nine_tod1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/nine_tod2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/nine_tod3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/nine_tod4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/nine_tod5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/nine_tod6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/nine_tod7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/nine_tod8"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_back"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="10"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/ten_total"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/ten_tod1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/ten_tod2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/ten_tod3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/ten_tod4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/ten_tod5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/ten_tod6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/ten_tod7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/ten_tod8"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_back"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="11"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eleven_total"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eleven_tod1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eleven_tod2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eleven_tod3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eleven_tod4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eleven_tod5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eleven_tod6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eleven_tod7"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Values"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eleven_tod8"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/table_back"
+            android:gravity="center"
+            android:text="Value"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
